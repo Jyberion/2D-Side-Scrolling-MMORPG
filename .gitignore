@@ -1,2 +1,5 @@
 
 /.metadata
+/login-server/target
+/java_client/target
+/login-server/src/main/webapp
