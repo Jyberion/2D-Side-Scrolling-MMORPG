@@ -15,7 +15,7 @@ public class GameClient extends ApplicationAdapter {
     public void create() {
         networkClient = new NetworkClient("localhost", 8558);
         networkClient.connect();
-        setScreen(new LoginScreen(this, networkClient));
+        setScreen(new LoginScreen(this, networkClient)); // Pass `this` as the GameClient instance
     }
 
     public void setScreen(Screen screen) {
